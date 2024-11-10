@@ -1,0 +1,2305 @@
+{
+    "train_loss": 0.6357732869875736,
+    "epoch_time": 1904.3793683052063,
+    "batches_processed": 390,
+    "mean_grad_norm": 0.1490016572283398,
+    "max_grad_norm": 0.20554988356110526,
+    "min_grad_norm": 0.10998230093037864,
+    "total_memory": 5.397014617919922,
+    "batch_metrics": [
+        {
+            "batch_idx": 0,
+            "loss": 0.6285517811775208,
+            "correct": 103,
+            "stage1": {
+                "feature_variance": 0.6452866792678833,
+                "feature_sparsity": 0.0011143684387207031,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6518718004226685,
+                "feature_sparsity": 0.001745462417602539,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8131439685821533,
+                "feature_sparsity": 0.01082003116607666,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 1,
+            "loss": 0.5136526823043823,
+            "correct": 102,
+            "stage1": {
+                "feature_variance": 0.659243106842041,
+                "feature_sparsity": 0.0010936260223388672,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6576403975486755,
+                "feature_sparsity": 0.0017433762550354004,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8521443605422974,
+                "feature_sparsity": 0.010523229837417603,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 2,
+            "loss": 0.5933331251144409,
+            "correct": 100,
+            "stage1": {
+                "feature_variance": 0.6263167858123779,
+                "feature_sparsity": 0.0010974407196044922,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6433291435241699,
+                "feature_sparsity": 0.001663804054260254,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8053905963897705,
+                "feature_sparsity": 0.011382311582565308,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 3,
+            "loss": 0.4156211018562317,
+            "correct": 107,
+            "stage1": {
+                "feature_variance": 0.6198011636734009,
+                "feature_sparsity": 0.0010936260223388672,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6467052698135376,
+                "feature_sparsity": 0.0016707181930541992,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8165236711502075,
+                "feature_sparsity": 0.011836200952529907,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 4,
+            "loss": 0.37771594524383545,
+            "correct": 110,
+            "stage1": {
+                "feature_variance": 0.6388527154922485,
+                "feature_sparsity": 0.0010974407196044922,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6556841731071472,
+                "feature_sparsity": 0.0017182230949401855,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8849472999572754,
+                "feature_sparsity": 0.011105895042419434,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 5,
+            "loss": 0.8490377068519592,
+            "correct": 93,
+            "stage1": {
+                "feature_variance": 0.6271841526031494,
+                "feature_sparsity": 0.0011248588562011719,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6409240961074829,
+                "feature_sparsity": 0.0017195940017700195,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8189189434051514,
+                "feature_sparsity": 0.009513378143310547,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 6,
+            "loss": 0.7800896763801575,
+            "correct": 97,
+            "stage1": {
+                "feature_variance": 0.6408641934394836,
+                "feature_sparsity": 0.0011098384857177734,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6502218842506409,
+                "feature_sparsity": 0.001692056655883789,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7998785972595215,
+                "feature_sparsity": 0.01140335202217102,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 7,
+            "loss": 0.4855002760887146,
+            "correct": 109,
+            "stage1": {
+                "feature_variance": 0.6390045285224915,
+                "feature_sparsity": 0.0010906457901000977,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6469689011573792,
+                "feature_sparsity": 0.0017828941345214844,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.78826105594635,
+                "feature_sparsity": 0.012847036123275757,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 8,
+            "loss": 0.7150046229362488,
+            "correct": 103,
+            "stage1": {
+                "feature_variance": 0.6389894485473633,
+                "feature_sparsity": 0.0011222362518310547,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6451940536499023,
+                "feature_sparsity": 0.0017254352569580078,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8014074563980103,
+                "feature_sparsity": 0.009739190340042114,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 9,
+            "loss": 0.5559015274047852,
+            "correct": 103,
+            "stage1": {
+                "feature_variance": 0.6421331763267517,
+                "feature_sparsity": 0.0011005401611328125,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6569997668266296,
+                "feature_sparsity": 0.0017008781433105469,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8702517747879028,
+                "feature_sparsity": 0.010331541299819946,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 10,
+            "loss": 0.5306852459907532,
+            "correct": 106,
+            "stage1": {
+                "feature_variance": 0.649210512638092,
+                "feature_sparsity": 0.0010944604873657227,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6449377536773682,
+                "feature_sparsity": 0.0017955303192138672,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8078964948654175,
+                "feature_sparsity": 0.012720555067062378,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 11,
+            "loss": 0.7571404576301575,
+            "correct": 97,
+            "stage1": {
+                "feature_variance": 0.6410696506500244,
+                "feature_sparsity": 0.001100301742553711,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6606594324111938,
+                "feature_sparsity": 0.0017009377479553223,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8678640127182007,
+                "feature_sparsity": 0.01035761833190918,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 12,
+            "loss": 0.555849015712738,
+            "correct": 105,
+            "stage1": {
+                "feature_variance": 0.6231009364128113,
+                "feature_sparsity": 0.001134037971496582,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6345278024673462,
+                "feature_sparsity": 0.0017342567443847656,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8074665069580078,
+                "feature_sparsity": 0.01084873080253601,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 13,
+            "loss": 0.6656252145767212,
+            "correct": 102,
+            "stage1": {
+                "feature_variance": 0.6528698801994324,
+                "feature_sparsity": 0.001068115234375,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6505560874938965,
+                "feature_sparsity": 0.001753389835357666,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8211016654968262,
+                "feature_sparsity": 0.010596156120300293,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 14,
+            "loss": 0.5589801669120789,
+            "correct": 104,
+            "stage1": {
+                "feature_variance": 0.6320563554763794,
+                "feature_sparsity": 0.001134037971496582,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6530131697654724,
+                "feature_sparsity": 0.0018347501754760742,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8763880729675293,
+                "feature_sparsity": 0.012213259935379028,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 15,
+            "loss": 0.8649142980575562,
+            "correct": 95,
+            "stage1": {
+                "feature_variance": 0.6324641704559326,
+                "feature_sparsity": 0.0011206865310668945,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6468756198883057,
+                "feature_sparsity": 0.0017504692077636719,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8051869869232178,
+                "feature_sparsity": 0.010654717683792114,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 16,
+            "loss": 0.6254587173461914,
+            "correct": 105,
+            "stage1": {
+                "feature_variance": 0.62466961145401,
+                "feature_sparsity": 0.0011222362518310547,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6432798504829407,
+                "feature_sparsity": 0.0017624497413635254,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.804056167602539,
+                "feature_sparsity": 0.011273771524429321,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 17,
+            "loss": 0.763111412525177,
+            "correct": 102,
+            "stage1": {
+                "feature_variance": 0.6367703676223755,
+                "feature_sparsity": 0.0011235475540161133,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6380116939544678,
+                "feature_sparsity": 0.0017327666282653809,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7785724401474,
+                "feature_sparsity": 0.010817945003509521,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 18,
+            "loss": 0.4173562228679657,
+            "correct": 110,
+            "stage1": {
+                "feature_variance": 0.6132200956344604,
+                "feature_sparsity": 0.0011044740676879883,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6347556114196777,
+                "feature_sparsity": 0.001758873462677002,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7894752025604248,
+                "feature_sparsity": 0.01062929630279541,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 19,
+            "loss": 0.6575716137886047,
+            "correct": 103,
+            "stage1": {
+                "feature_variance": 0.6389783620834351,
+                "feature_sparsity": 0.0010902881622314453,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6533609628677368,
+                "feature_sparsity": 0.0016927719116210938,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8005452156066895,
+                "feature_sparsity": 0.009965121746063232,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 20,
+            "loss": 0.5659930109977722,
+            "correct": 106,
+            "stage1": {
+                "feature_variance": 0.5895064473152161,
+                "feature_sparsity": 0.001159071922302246,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6285638213157654,
+                "feature_sparsity": 0.0016828179359436035,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.745957374572754,
+                "feature_sparsity": 0.0098477303981781,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 21,
+            "loss": 0.6588162779808044,
+            "correct": 106,
+            "stage1": {
+                "feature_variance": 0.6659421920776367,
+                "feature_sparsity": 0.0011044740676879883,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6525717973709106,
+                "feature_sparsity": 0.0017986893653869629,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8326791524887085,
+                "feature_sparsity": 0.01097714900970459,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 22,
+            "loss": 0.5429702997207642,
+            "correct": 107,
+            "stage1": {
+                "feature_variance": 0.6391533017158508,
+                "feature_sparsity": 0.0010952949523925781,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6467481851577759,
+                "feature_sparsity": 0.00167161226272583,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8201682567596436,
+                "feature_sparsity": 0.01027795672416687,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 23,
+            "loss": 0.46961647272109985,
+            "correct": 107,
+            "stage1": {
+                "feature_variance": 0.6469205617904663,
+                "feature_sparsity": 0.0010900497436523438,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.641391932964325,
+                "feature_sparsity": 0.0017229318618774414,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7920457124710083,
+                "feature_sparsity": 0.010870128870010376,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 24,
+            "loss": 0.538109302520752,
+            "correct": 100,
+            "stage1": {
+                "feature_variance": 0.6458132863044739,
+                "feature_sparsity": 0.0011001825332641602,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6450003981590271,
+                "feature_sparsity": 0.0017554759979248047,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.804177165031433,
+                "feature_sparsity": 0.01107063889503479,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 25,
+            "loss": 0.7117797136306763,
+            "correct": 100,
+            "stage1": {
+                "feature_variance": 0.6707283854484558,
+                "feature_sparsity": 0.0011044740676879883,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6608011722564697,
+                "feature_sparsity": 0.001678764820098877,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8546112775802612,
+                "feature_sparsity": 0.011299669742584229,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 26,
+            "loss": 0.6750692129135132,
+            "correct": 98,
+            "stage1": {
+                "feature_variance": 0.62521892786026,
+                "feature_sparsity": 0.0011417865753173828,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6382266283035278,
+                "feature_sparsity": 0.0017870664596557617,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8292927742004395,
+                "feature_sparsity": 0.012080550193786621,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 27,
+            "loss": 0.6078002452850342,
+            "correct": 105,
+            "stage1": {
+                "feature_variance": 0.6096202731132507,
+                "feature_sparsity": 0.0011464357376098633,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6365804076194763,
+                "feature_sparsity": 0.0016982555389404297,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8077491521835327,
+                "feature_sparsity": 0.011892318725585938,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 28,
+            "loss": 0.6256900429725647,
+            "correct": 99,
+            "stage1": {
+                "feature_variance": 0.6505758762359619,
+                "feature_sparsity": 0.0011028051376342773,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.655337929725647,
+                "feature_sparsity": 0.0016976594924926758,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8418631553649902,
+                "feature_sparsity": 0.011029750108718872,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 29,
+            "loss": 0.5386261940002441,
+            "correct": 106,
+            "stage1": {
+                "feature_variance": 0.6593410968780518,
+                "feature_sparsity": 0.0011075735092163086,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6669644713401794,
+                "feature_sparsity": 0.001782536506652832,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.9196077585220337,
+                "feature_sparsity": 0.011706709861755371,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 30,
+            "loss": 0.41243088245391846,
+            "correct": 111,
+            "stage1": {
+                "feature_variance": 0.630423367023468,
+                "feature_sparsity": 0.0011034011840820312,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6451855301856995,
+                "feature_sparsity": 0.001680135726928711,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8183997869491577,
+                "feature_sparsity": 0.010561525821685791,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 31,
+            "loss": 0.6211418509483337,
+            "correct": 103,
+            "stage1": {
+                "feature_variance": 0.635768711566925,
+                "feature_sparsity": 0.0011092424392700195,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6434252262115479,
+                "feature_sparsity": 0.0017520785331726074,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8233604431152344,
+                "feature_sparsity": 0.00915592908859253,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 32,
+            "loss": 0.6717607975006104,
+            "correct": 99,
+            "stage1": {
+                "feature_variance": 0.6396677494049072,
+                "feature_sparsity": 0.0011354684829711914,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.646037757396698,
+                "feature_sparsity": 0.0016970634460449219,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7945895195007324,
+                "feature_sparsity": 0.009806662797927856,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 33,
+            "loss": 0.4478943645954132,
+            "correct": 106,
+            "stage1": {
+                "feature_variance": 0.6342217922210693,
+                "feature_sparsity": 0.0011097192764282227,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6558369398117065,
+                "feature_sparsity": 0.0017420649528503418,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8976848125457764,
+                "feature_sparsity": 0.011791765689849854,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 34,
+            "loss": 0.5362818241119385,
+            "correct": 105,
+            "stage1": {
+                "feature_variance": 0.667378306388855,
+                "feature_sparsity": 0.0011134147644042969,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6552615165710449,
+                "feature_sparsity": 0.0017594099044799805,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8379731178283691,
+                "feature_sparsity": 0.01228111982345581,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 35,
+            "loss": 0.46827971935272217,
+            "correct": 104,
+            "stage1": {
+                "feature_variance": 0.6390859484672546,
+                "feature_sparsity": 0.001125335693359375,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6404085159301758,
+                "feature_sparsity": 0.00169295072555542,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8035404682159424,
+                "feature_sparsity": 0.010430008172988892,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 36,
+            "loss": 0.4053367078304291,
+            "correct": 106,
+            "stage1": {
+                "feature_variance": 0.6306806802749634,
+                "feature_sparsity": 0.0011354684829711914,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6413453221321106,
+                "feature_sparsity": 0.001760721206665039,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7841660976409912,
+                "feature_sparsity": 0.011344581842422485,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 37,
+            "loss": 0.7469652891159058,
+            "correct": 100,
+            "stage1": {
+                "feature_variance": 0.6787018775939941,
+                "feature_sparsity": 0.001081705093383789,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.674365222454071,
+                "feature_sparsity": 0.0017212629318237305,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8990814685821533,
+                "feature_sparsity": 0.009370476007461548,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 38,
+            "loss": 1.0337105989456177,
+            "correct": 96,
+            "stage1": {
+                "feature_variance": 0.6447213888168335,
+                "feature_sparsity": 0.0011337995529174805,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.65863037109375,
+                "feature_sparsity": 0.0017292499542236328,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8533061742782593,
+                "feature_sparsity": 0.00905582308769226,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 39,
+            "loss": 0.5323804020881653,
+            "correct": 104,
+            "stage1": {
+                "feature_variance": 0.613500714302063,
+                "feature_sparsity": 0.0011477470397949219,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6387330889701843,
+                "feature_sparsity": 0.001724839210510254,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.793012261390686,
+                "feature_sparsity": 0.009634166955947876,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 40,
+            "loss": 0.6535563468933105,
+            "correct": 101,
+            "stage1": {
+                "feature_variance": 0.6286531090736389,
+                "feature_sparsity": 0.0011224746704101562,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6480069160461426,
+                "feature_sparsity": 0.0017006993293762207,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7965140342712402,
+                "feature_sparsity": 0.01012071967124939,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 41,
+            "loss": 0.4576958417892456,
+            "correct": 110,
+            "stage1": {
+                "feature_variance": 0.6359924674034119,
+                "feature_sparsity": 0.001119375228881836,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6482735872268677,
+                "feature_sparsity": 0.0017343759536743164,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8212862014770508,
+                "feature_sparsity": 0.00974363088607788,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 42,
+            "loss": 0.6913421750068665,
+            "correct": 100,
+            "stage1": {
+                "feature_variance": 0.6476667523384094,
+                "feature_sparsity": 0.0011044740676879883,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6559098958969116,
+                "feature_sparsity": 0.0017041563987731934,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8572108745574951,
+                "feature_sparsity": 0.010625511407852173,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 43,
+            "loss": 0.7183340191841125,
+            "correct": 102,
+            "stage1": {
+                "feature_variance": 0.6141255497932434,
+                "feature_sparsity": 0.0011192560195922852,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6332324743270874,
+                "feature_sparsity": 0.0017132163047790527,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.799162745475769,
+                "feature_sparsity": 0.010058492422103882,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 44,
+            "loss": 0.5076870322227478,
+            "correct": 111,
+            "stage1": {
+                "feature_variance": 0.6173076629638672,
+                "feature_sparsity": 0.0011439323425292969,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.644670844078064,
+                "feature_sparsity": 0.0017501115798950195,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8386614322662354,
+                "feature_sparsity": 0.009913623332977295,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 45,
+            "loss": 0.5575878620147705,
+            "correct": 107,
+            "stage1": {
+                "feature_variance": 0.6255814433097839,
+                "feature_sparsity": 0.0011113882064819336,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6447227001190186,
+                "feature_sparsity": 0.001729726791381836,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8098647594451904,
+                "feature_sparsity": 0.009186536073684692,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 46,
+            "loss": 0.7884368300437927,
+            "correct": 97,
+            "stage1": {
+                "feature_variance": 0.629488468170166,
+                "feature_sparsity": 0.0011243820190429688,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6473643779754639,
+                "feature_sparsity": 0.0017092227935791016,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8138333559036255,
+                "feature_sparsity": 0.009857177734375,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 47,
+            "loss": 0.5065102577209473,
+            "correct": 100,
+            "stage1": {
+                "feature_variance": 0.6223455667495728,
+                "feature_sparsity": 0.001105189323425293,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6368588209152222,
+                "feature_sparsity": 0.0016841292381286621,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7805652618408203,
+                "feature_sparsity": 0.011167138814926147,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 48,
+            "loss": 0.6530820727348328,
+            "correct": 97,
+            "stage1": {
+                "feature_variance": 0.6367774605751038,
+                "feature_sparsity": 0.0011203289031982422,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6455604434013367,
+                "feature_sparsity": 0.0017951130867004395,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8365163803100586,
+                "feature_sparsity": 0.011398077011108398,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 49,
+            "loss": 0.4850563406944275,
+            "correct": 108,
+            "stage1": {
+                "feature_variance": 0.6382243633270264,
+                "feature_sparsity": 0.0011067390441894531,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6585231423377991,
+                "feature_sparsity": 0.0017892718315124512,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8736281394958496,
+                "feature_sparsity": 0.011386781930923462,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 50,
+            "loss": 0.7095826268196106,
+            "correct": 97,
+            "stage1": {
+                "feature_variance": 0.5963977575302124,
+                "feature_sparsity": 0.0011206865310668945,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6370002031326294,
+                "feature_sparsity": 0.0016897916793823242,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7890903949737549,
+                "feature_sparsity": 0.009759634733200073,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 51,
+            "loss": 0.4349174201488495,
+            "correct": 102,
+            "stage1": {
+                "feature_variance": 0.6476297378540039,
+                "feature_sparsity": 0.0011116266250610352,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6494175791740417,
+                "feature_sparsity": 0.0017670989036560059,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8268918991088867,
+                "feature_sparsity": 0.011171728372573853,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 52,
+            "loss": 0.5615898966789246,
+            "correct": 101,
+            "stage1": {
+                "feature_variance": 0.6282626390457153,
+                "feature_sparsity": 0.0011237859725952148,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6458560228347778,
+                "feature_sparsity": 0.0017372965812683105,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7817139625549316,
+                "feature_sparsity": 0.010224491357803345,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 53,
+            "loss": 0.5521209836006165,
+            "correct": 99,
+            "stage1": {
+                "feature_variance": 0.6202215552330017,
+                "feature_sparsity": 0.0011070966720581055,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6504701375961304,
+                "feature_sparsity": 0.0016689300537109375,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8427255153656006,
+                "feature_sparsity": 0.010033607482910156,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 54,
+            "loss": 0.735163688659668,
+            "correct": 94,
+            "stage1": {
+                "feature_variance": 0.61719810962677,
+                "feature_sparsity": 0.0011173486709594727,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6383864879608154,
+                "feature_sparsity": 0.0017415881156921387,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7905423641204834,
+                "feature_sparsity": 0.01218387484550476,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 55,
+            "loss": 0.6060648560523987,
+            "correct": 103,
+            "stage1": {
+                "feature_variance": 0.6192622780799866,
+                "feature_sparsity": 0.0011241436004638672,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6382603049278259,
+                "feature_sparsity": 0.0017496943473815918,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8121181726455688,
+                "feature_sparsity": 0.010605484247207642,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 56,
+            "loss": 0.4802597761154175,
+            "correct": 105,
+            "stage1": {
+                "feature_variance": 0.6310111880302429,
+                "feature_sparsity": 0.0011268854141235352,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6451032757759094,
+                "feature_sparsity": 0.0016869306564331055,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7977850437164307,
+                "feature_sparsity": 0.010986149311065674,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 57,
+            "loss": 0.4793926477432251,
+            "correct": 102,
+            "stage1": {
+                "feature_variance": 0.6228216290473938,
+                "feature_sparsity": 0.0011050701141357422,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.632116436958313,
+                "feature_sparsity": 0.0017386674880981445,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.781066656112671,
+                "feature_sparsity": 0.009942322969436646,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 58,
+            "loss": 0.5234770178794861,
+            "correct": 108,
+            "stage1": {
+                "feature_variance": 0.6517900228500366,
+                "feature_sparsity": 0.0011125802993774414,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.645353376865387,
+                "feature_sparsity": 0.001726388931274414,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8082172870635986,
+                "feature_sparsity": 0.011176973581314087,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 59,
+            "loss": 0.5513779520988464,
+            "correct": 105,
+            "stage1": {
+                "feature_variance": 0.6528121829032898,
+                "feature_sparsity": 0.0010951757431030273,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6595843434333801,
+                "feature_sparsity": 0.0017238259315490723,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8291270732879639,
+                "feature_sparsity": 0.010100394487380981,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 60,
+            "loss": 0.688327431678772,
+            "correct": 104,
+            "stage1": {
+                "feature_variance": 0.6303802728652954,
+                "feature_sparsity": 0.0010960102081298828,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6483341455459595,
+                "feature_sparsity": 0.0017679333686828613,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7973219156265259,
+                "feature_sparsity": 0.010883629322052002,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 61,
+            "loss": 0.5672774910926819,
+            "correct": 105,
+            "stage1": {
+                "feature_variance": 0.6396127343177795,
+                "feature_sparsity": 0.0011146068572998047,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6536529064178467,
+                "feature_sparsity": 0.001746535301208496,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8068218231201172,
+                "feature_sparsity": 0.011000573635101318,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 62,
+            "loss": 0.4904106557369232,
+            "correct": 111,
+            "stage1": {
+                "feature_variance": 0.6471947431564331,
+                "feature_sparsity": 0.0010864734649658203,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6660937070846558,
+                "feature_sparsity": 0.0017606616020202637,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8767026662826538,
+                "feature_sparsity": 0.011179238557815552,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 63,
+            "loss": 0.5812138319015503,
+            "correct": 102,
+            "stage1": {
+                "feature_variance": 0.6287089586257935,
+                "feature_sparsity": 0.0011172294616699219,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6479427814483643,
+                "feature_sparsity": 0.0017511248588562012,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8135643005371094,
+                "feature_sparsity": 0.01080748438835144,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 64,
+            "loss": 0.5453125834465027,
+            "correct": 106,
+            "stage1": {
+                "feature_variance": 0.632808268070221,
+                "feature_sparsity": 0.0011109113693237305,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6518160104751587,
+                "feature_sparsity": 0.0017341971397399902,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8556468486785889,
+                "feature_sparsity": 0.010593324899673462,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 65,
+            "loss": 0.5274649858474731,
+            "correct": 112,
+            "stage1": {
+                "feature_variance": 0.6087563037872314,
+                "feature_sparsity": 0.001127481460571289,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6238613724708557,
+                "feature_sparsity": 0.0017504692077636719,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7696080207824707,
+                "feature_sparsity": 0.010066390037536621,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 66,
+            "loss": 0.6295456886291504,
+            "correct": 106,
+            "stage1": {
+                "feature_variance": 0.6675538420677185,
+                "feature_sparsity": 0.0011076927185058594,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6597543954849243,
+                "feature_sparsity": 0.0017712116241455078,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8349871635437012,
+                "feature_sparsity": 0.010697811841964722,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 67,
+            "loss": 0.5247988700866699,
+            "correct": 102,
+            "stage1": {
+                "feature_variance": 0.6326308846473694,
+                "feature_sparsity": 0.0010995864868164062,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6421242952346802,
+                "feature_sparsity": 0.0017685294151306152,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8003824949264526,
+                "feature_sparsity": 0.011604934930801392,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 68,
+            "loss": 0.694539487361908,
+            "correct": 103,
+            "stage1": {
+                "feature_variance": 0.6149986982345581,
+                "feature_sparsity": 0.001101374626159668,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.638074517250061,
+                "feature_sparsity": 0.0017992258071899414,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7621387243270874,
+                "feature_sparsity": 0.009705871343612671,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 69,
+            "loss": 0.7016953229904175,
+            "correct": 105,
+            "stage1": {
+                "feature_variance": 0.6339519619941711,
+                "feature_sparsity": 0.0011004209518432617,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6373031139373779,
+                "feature_sparsity": 0.0017154812812805176,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8067675828933716,
+                "feature_sparsity": 0.011907756328582764,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 70,
+            "loss": 0.43976569175720215,
+            "correct": 107,
+            "stage1": {
+                "feature_variance": 0.6332969069480896,
+                "feature_sparsity": 0.0010699033737182617,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6511343121528625,
+                "feature_sparsity": 0.0016900300979614258,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.818659782409668,
+                "feature_sparsity": 0.011240214109420776,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 71,
+            "loss": 0.34591373801231384,
+            "correct": 114,
+            "stage1": {
+                "feature_variance": 0.600823163986206,
+                "feature_sparsity": 0.0011332035064697266,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6277435421943665,
+                "feature_sparsity": 0.0017072558403015137,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.7931324243545532,
+                "feature_sparsity": 0.01197698712348938,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 72,
+            "loss": 0.6200414896011353,
+            "correct": 98,
+            "stage1": {
+                "feature_variance": 0.628345787525177,
+                "feature_sparsity": 0.0011233091354370117,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6536614894866943,
+                "feature_sparsity": 0.0017275810241699219,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8736871480941772,
+                "feature_sparsity": 0.01047244668006897,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 73,
+            "loss": 0.4788930118083954,
+            "correct": 108,
+            "stage1": {
+                "feature_variance": 0.639019787311554,
+                "feature_sparsity": 0.0010894536972045898,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6581994295120239,
+                "feature_sparsity": 0.0017053484916687012,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8445632457733154,
+                "feature_sparsity": 0.009633570909500122,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 74,
+            "loss": 0.4975114166736603,
+            "correct": 110,
+            "stage1": {
+                "feature_variance": 0.631501317024231,
+                "feature_sparsity": 0.001098036766052246,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6506751179695129,
+                "feature_sparsity": 0.0017247796058654785,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8465895652770996,
+                "feature_sparsity": 0.011478245258331299,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 75,
+            "loss": 0.5048752427101135,
+            "correct": 108,
+            "stage1": {
+                "feature_variance": 0.6366324424743652,
+                "feature_sparsity": 0.0011020898818969727,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6523061394691467,
+                "feature_sparsity": 0.001761794090270996,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8234801292419434,
+                "feature_sparsity": 0.012801110744476318,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 76,
+            "loss": 0.7425903677940369,
+            "correct": 102,
+            "stage1": {
+                "feature_variance": 0.6343547105789185,
+                "feature_sparsity": 0.0010923147201538086,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6446554064750671,
+                "feature_sparsity": 0.0018150806427001953,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8053550720214844,
+                "feature_sparsity": 0.01337781548500061,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 77,
+            "loss": 0.7028435468673706,
+            "correct": 98,
+            "stage1": {
+                "feature_variance": 0.6439736485481262,
+                "feature_sparsity": 0.0011050701141357422,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6520239114761353,
+                "feature_sparsity": 0.0017110109329223633,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.815230369567871,
+                "feature_sparsity": 0.011642664670944214,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        },
+        {
+            "batch_idx": 78,
+            "loss": 0.15912900865077972,
+            "correct": 15,
+            "stage1": {
+                "feature_variance": 0.6640424728393555,
+                "feature_sparsity": 0.001049041748046875,
+                "memory_usage": 0.3175392150878906,
+                "is_pruned": false
+            },
+            "stage2": {
+                "feature_variance": 0.6754105091094971,
+                "feature_sparsity": 0.0017552375793457031,
+                "memory_usage": 1.0155448913574219,
+                "is_pruned": false
+            },
+            "stage3": {
+                "feature_variance": 1.8208084106445312,
+                "feature_sparsity": 0.010248899459838867,
+                "memory_usage": 4.046306610107422,
+                "is_pruned": false
+            },
+            "total_memory": 5.397014617919922
+        }
+    ],
+    "grad_norm_history": [
+        0.1543246007195836,
+        0.14114717424208043,
+        0.1549191166393483,
+        0.15484708883779397,
+        0.1680725659522716,
+        0.12809314643596661,
+        0.15669696071671035,
+        0.13593980134405909,
+        0.1461974298857668,
+        0.14579166999368467,
+        0.11144924563364467,
+        0.18546220288820867,
+        0.13445064465568585,
+        0.16005974056506722,
+        0.13738880285763977,
+        0.15601521412350594,
+        0.14891254676470944,
+        0.1596813784602911,
+        0.1764177554123335,
+        0.12207571281890167,
+        0.17418089686937893,
+        0.1513663201260181,
+        0.13216863370186943,
+        0.14229633557357588,
+        0.1395375675827082,
+        0.119145623750607,
+        0.1587356611863845,
+        0.12371918497123498,
+        0.1605585130626492,
+        0.14059704326509193,
+        0.1753298382240515,
+        0.16802239406122219,
+        0.15644231876539544,
+        0.12219610067442442,
+        0.15405753722570745,
+        0.16537251955362556,
+        0.17748381608564576,
+        0.15446044760534994,
+        0.17394753819394757,
+        0.17004361441252377,
+        0.14381434800951312,
+        0.1627691508493929,
+        0.1510763199793413,
+        0.15143785661474404,
+        0.1397655080297971,
+        0.14550688987265623,
+        0.13884083808563913,
+        0.158969661755532,
+        0.14650447680385345,
+        0.18623753898137896,
+        0.18954015008548306,
+        0.16668302792243744,
+        0.1485679764597761,
+        0.15691434192626338,
+        0.13254978437515455,
+        0.15295530866944584,
+        0.16072839204312328,
+        0.1537160736734321,
+        0.13185948736663117,
+        0.15421322175468447,
+        0.16342606993298434,
+        0.12411179937441279,
+        0.15957877029127365,
+        0.1419132045954527,
+        0.13561078400980522,
+        0.1483872667525313,
+        0.12532541143193704,
+        0.13497093050950557,
+        0.14807608167137457,
+        0.13623313721721836,
+        0.17542755412377942,
+        0.16003591764220293,
+        0.1335787520201939,
+        0.1297046510191616,
+        0.13428678938942878,
+        0.14267494276522896,
+        0.15465000197383225,
+        0.15494333423761586,
+        0.17158310456176015,
+        0.1373350854366214,
+        0.13288690967921588,
+        0.1508716246811709,
+        0.14195847900060504,
+        0.15164168203942133,
+        0.15422804531324658,
+        0.1368947346521385,
+        0.15343457715671396,
+        0.17463804658960586,
+        0.13135687155624304,
+        0.16217026863892825,
+        0.16330065695062765,
+        0.12515216859501074,
+        0.11502286253363898,
+        0.1428419481856432,
+        0.15532288362224983,
+        0.1444733699874396,
+        0.14871917332799078,
+        0.1428432398274962,
+        0.12632690181646294,
+        0.14773026991905538,
+        0.13070044178665344,
+        0.13760538259221222,
+        0.13493228524196416,
+        0.15103851676375596,
+        0.14947479167976901,
+        0.11979881912838164,
+        0.15090428061310532,
+        0.16941592111318138,
+        0.16632589927007674,
+        0.18714020006247797,
+        0.14585044721663368,
+        0.14636168789395573,
+        0.14300616004542954,
+        0.13502268524827832,
+        0.15674907465790902,
+        0.13675472570857344,
+        0.16174874550461418,
+        0.14390761526181997,
+        0.13887502262055654,
+        0.14734019775878845,
+        0.1606965974587908,
+        0.18309426156155542,
+        0.13488253592193503,
+        0.15612258447980532,
+        0.15759982744894854,
+        0.15281679501604178,
+        0.149793675116979,
+        0.13644575373252602,
+        0.16544207906055114,
+        0.12817611720663402,
+        0.16010617547501135,
+        0.12790160340274362,
+        0.17543676082922496,
+        0.15817028158630372,
+        0.16284443176039934,
+        0.12848086066531134,
+        0.10998230093037864,
+        0.14688180218343924,
+        0.12920418617643384,
+        0.15071126345235977,
+        0.14482872010267364,
+        0.14118296833678834,
+        0.14562610423002378,
+        0.12839822076277788,
+        0.12326576960006161,
+        0.15752036212328868,
+        0.1509809438365809,
+        0.1569066444164331,
+        0.1224025332556343,
+        0.16216047902565653,
+        0.1296690796831303,
+        0.16629799676154,
+        0.1462849647889331,
+        0.17327101884826357,
+        0.14773464257583008,
+        0.14965741691504056,
+        0.18732438379442876,
+        0.16122979999122772,
+        0.12771623689505127,
+        0.16341583899902212,
+        0.141405251406722,
+        0.1855739668647348,
+        0.15251520004898614,
+        0.16872697801169986,
+        0.1666428400047765,
+        0.14479366562884433,
+        0.13942319974707654,
+        0.13980605470526644,
+        0.16463342232700015,
+        0.13475323763633548,
+        0.16923552134115535,
+        0.1360400149548402,
+        0.144130346714442,
+        0.1491028634253669,
+        0.12560763527696478,
+        0.12625018551807052,
+        0.14212002232130605,
+        0.1477668784585497,
+        0.14580949413160413,
+        0.1571798822443269,
+        0.18299106694062456,
+        0.12156017097792077,
+        0.1357218221440742,
+        0.15035835639678874,
+        0.14183036230962837,
+        0.1389356054187194,
+        0.16131491587683724,
+        0.14629197620950116,
+        0.17385343053549504,
+        0.16873467963270705,
+        0.14879610390108314,
+        0.13217891893139147,
+        0.14932363902339632,
+        0.13260441009684681,
+        0.12621976826985168,
+        0.1460486232581203,
+        0.13171181426767803,
+        0.12164655248343247,
+        0.15789760182190782,
+        0.12567760786898222,
+        0.16225481143219428,
+        0.17441194567104576,
+        0.12275958888509884,
+        0.1387099693774183,
+        0.1435713540233089,
+        0.1481801817587293,
+        0.15548503416345594,
+        0.14957506851142824,
+        0.1577182009959696,
+        0.11086888783480837,
+        0.16585862901581605,
+        0.18041510296509222,
+        0.18202740768293388,
+        0.1714258993884637,
+        0.20554988356110526,
+        0.16984315886315285,
+        0.1718557873685466,
+        0.16340918201727003,
+        0.14131394161470245,
+        0.14936691472407757,
+        0.14993578076668745,
+        0.14465222895041469,
+        0.139677278142618,
+        0.1553547363668531,
+        0.14859720655583974,
+        0.13988852291113463,
+        0.13933822241794006,
+        0.16788162551733402,
+        0.150430526614524,
+        0.14561362210016063,
+        0.1336575154999925,
+        0.141569990635321,
+        0.17142551900302866,
+        0.15675469228210917,
+        0.13515111303383143,
+        0.12319061905781128,
+        0.1193114656138661,
+        0.13599330231746593,
+        0.12728827948923446,
+        0.13221982982729188,
+        0.16405152796206265,
+        0.1792547511475872,
+        0.14191224202669184,
+        0.15334085248685708,
+        0.12849121462178664,
+        0.14722705203734637,
+        0.13081786542169946,
+        0.15039187432352671,
+        0.14683102819191016,
+        0.12911746046819522,
+        0.16352312301980113,
+        0.17521691047068408,
+        0.13446696587922974,
+        0.1459227479437742,
+        0.17800981281710584,
+        0.17284146424528438,
+        0.12456461707386217,
+        0.14915486238260897,
+        0.12026557475323595,
+        0.13168924958667175,
+        0.11020876979110279,
+        0.16491359254929627,
+        0.15208229089782405,
+        0.1531782298423665,
+        0.1360205709731459,
+        0.15124933541419142,
+        0.14382573963987366,
+        0.15203403794975429,
+        0.14236071238852696,
+        0.17704461830869728,
+        0.16158751998889026,
+        0.12528324442322733,
+        0.14090863341879417,
+        0.14534625449945263,
+        0.13714058855378775,
+        0.14703796540715897,
+        0.14876829469267305,
+        0.14518727401510353,
+        0.11485172554137038,
+        0.14890991209179713,
+        0.1474138200912973,
+        0.1492577490544774,
+        0.16747698085102894,
+        0.1437694314123761,
+        0.1274840185002594,
+        0.13112194223717086,
+        0.15998778026746163,
+        0.17109410932216862,
+        0.17099639509076403,
+        0.15429625090923527,
+        0.15655719704965845,
+        0.15648004787143002,
+        0.12224738858319224,
+        0.14440350253850603,
+        0.15666427929822144,
+        0.15540358528489406,
+        0.14863064505930232,
+        0.13707473464254355,
+        0.1560271918554266,
+        0.1311478753310034,
+        0.16351699752626594,
+        0.1425302617676235,
+        0.13718669591769433,
+        0.13759596701039575,
+        0.1532064929251957,
+        0.15693601352539902,
+        0.17110667391838955,
+        0.16436603894311203,
+        0.13342304552574136,
+        0.1496630601095379,
+        0.14599424148514034,
+        0.13465567550520216,
+        0.1464289238308837,
+        0.1565016828500574,
+        0.150231355376236,
+        0.1512463645095985,
+        0.1414699735009642,
+        0.12564711303824683,
+        0.148298911800574,
+        0.13627213192271603,
+        0.17432687399859212,
+        0.15789075674542793,
+        0.1514488978905509,
+        0.1273367292512751,
+        0.12539204221206918,
+        0.16744933336871373,
+        0.14514030726039087,
+        0.14934154511957337,
+        0.12045002547897313,
+        0.16445357809911385,
+        0.14790653420442898,
+        0.14789975150237036,
+        0.15017342120563396,
+        0.1314998880154811,
+        0.15542250161451343,
+        0.16076373016632206,
+        0.12792956842781789,
+        0.1777556769294137,
+        0.17074382461519086,
+        0.14379887696471969,
+        0.12769717342699485,
+        0.13139847756057413,
+        0.16508468844664148,
+        0.13222014776705088,
+        0.1531635963625381,
+        0.15585401672194077,
+        0.1430758934746179,
+        0.1474255482622635,
+        0.16144162191908967,
+        0.18938136810827677,
+        0.15926237830835227,
+        0.16270446646225906,
+        0.13895342605219912,
+        0.13303829948327894,
+        0.12509433797047623,
+        0.13174672465964765,
+        0.15190273451733113,
+        0.15871700093363722,
+        0.13956374777712413,
+        0.142447335440242,
+        0.17274050990870912,
+        0.15208220290007937,
+        0.15255787392604261,
+        0.16090812481757222,
+        0.16447440100253566,
+        0.14628941261911702,
+        0.13569891241226378,
+        0.1682649969421427,
+        0.1558173609351491,
+        0.1563062645824029,
+        0.15773011433242073,
+        0.14260077797815432,
+        0.11857400214800158,
+        0.14275375423272318,
+        0.18102169116787598,
+        0.17123792230129758,
+        0.15957535746280488,
+        0.17132937338980164,
+        0.16289445405075265,
+        0.1500935223452984,
+        0.14620111615860765,
+        0.162622755811095,
+        0.1568991835483944,
+        0.14541057679234587,
+        0.13780092537587416,
+        0.14524985973498997,
+        0.150178389833551,
+        0.1614919085217765,
+        0.15340920949377593,
+        0.14700407132231705
+    ],
+    "val_loss": 0.5850270826228058,
+    "accuracy": 0.8089,
+    "epoch": 41,
+    "learning_rate": 0.0009915788997827445,
+    "total_time": 83472.53568553925,
+    "timestamp": "2024-11-04 11:53:34"
+}
