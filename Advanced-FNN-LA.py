@@ -906,5 +906,5 @@ def train_advanced_fnnla(
 if __name__ == "__main__":
     model, metrics = train_advanced_fnnla(
         epochs=50,
-        enable_wandb=True  # Set to False if not using wandb
+        enable_wandb=False  # Set to False if not using wandb
     )
